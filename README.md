@@ -1,1 +1,1 @@
-# simple-discord-minecraft-plugin-
+# simple-/discord
