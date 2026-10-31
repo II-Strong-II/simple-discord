@@ -1,0 +1,17 @@
+name: DiscordPlugin
+version: 1.0.0
+main: com.discordplugin.DiscordPlugin
+api-version: '1.21'
+description: A clean and customizable plugin to link your Discord server.
+authors: [DiscordPlugin]
+
+commands:
+  discord:
+    description: Displays the Discord link or allows administrators to configure it.
+    usage: /discord [link <url> | reload | broadcast]
+    aliases: [dc]
+
+permissions:
+  discordplugin.admin:
+    description: Allows modifying the link (/discord link), reloading the config (/discord reload) and broadcasting the link (/discord broadcast).
+    default: op
