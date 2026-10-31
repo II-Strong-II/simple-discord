@@ -1,0 +1,23 @@
+# Made by TheStrong
+
+discord-url: "https://discord.com/invite/4ztSVBBPyx"
+
+# Send Discord message on player's first join
+first-join:
+  enabled: true
+
+# Send Discord message on every player join
+every-join:
+  enabled: false
+
+# Periodic broadcast to all players
+broadcast:
+  enabled: true
+  interval-minutes: 60
+
+messages:
+  header: "&8&m----------------------------------------"
+  title: "&5&lDISCORD &7» Join our community!"
+  button-text: "&d&l[CLICK HERE TO JOIN]"
+  button-hover: "&eClick to open the Discord link"
+  footer: "&8&m----------------------------------------"
