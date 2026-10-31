@@ -21,7 +21,7 @@ A simple Minecraft plugin to link your Discord server in-game. It gives players 
 ## Configuration (`config.yml`)
 
 ```yaml
-discord-url: "https://discord.gg/4ztSVBBPyx"
+discord-url: "https://discord.gg/74Bu83ruhb"
 
 first-join:
   enabled: true
